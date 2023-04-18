@@ -32,7 +32,6 @@ class App extends Component {
      localStorage.setItem('contacts', JSON.stringify(this.state.contacts)) 
     }
   }
-
   
   addContact = (name, number) => {
     const contact = {
